@@ -1,0 +1,106 @@
+.thickhr {
+	border: none;
+    height: 10px;
+    background-color: black;
+    margin: 0px 20px;
+}
+
+nav {
+	margin-top: 40px;
+	margin-bottom: 5px;
+	text-align:center;
+	color: black;
+	font-weight: bold;
+}
+
+h1 {
+	text-align:center;
+}
+
+aside {
+	display:inline-block;
+}
+
+section {
+	display:block;
+	
+}
+
+aside {
+	margin: auto;
+}
+
+img {
+	height: 200px;
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	border-style: solid;
+	border-width: 1px;
+	padding: 2px;
+	margin: 0 auto;
+	position: relative;
+	width: 50%;
+}
+
+h3 {
+	width: 300px;
+}
+
+h4 {
+	width: 440px;
+}
+
+.bottombar {
+	margin-top: 20px;
+	margin-bottom: 30px;
+	text-align:center;
+}
+
+.floating-box {
+	vertical-align: top;
+	display: inline-block;
+    width: 450px;
+    height: 300px;
+    margin: 10px;
+    border: 3px solid #73AD21;  
+}
+
+.heading {
+	font-size: 40px;
+	text-align: center;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+a {
+	color: black;
+	font-weight: bold;
+}
+
+#innerleft {
+	display: inline-block;
+}
+
+#innerright {
+	position: relative;
+	margin: auto;
+	display: inline-block;
+}
+
+hr {
+	width: 50%;
+}
+
+span {
+	font-style: italic;
+}
+
+#expblurb {
+	text-align: center;
+}
+
+li {
+	margin: auto;
+}
