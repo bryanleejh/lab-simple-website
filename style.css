@@ -1,105 +1,81 @@
-.thickhr {
-	border: none;
-    height: 10px;
-    background-color: black;
-    margin: 0px 20px;
+* {
+	box-sizing: border-box;
 }
+
+.body-wrapper {
+	margin: 3 0 3 0;
+	border-top: 3px black solid;
+	border-bottom: 3px black solid;
+}
+
+nav div span {
+	display: inline;
+}
+
+/*
+
+you can do this or you can just use | in html
+
+nav div span:first-child {
+	border-right: 1px black solid;
+	padding-right: 2px;
+	margin-right: 0px;
+}
+
+nav div span:last-child {
+	border-left: 1px black solid;
+	padding-left: 2px;
+	margin-right: 0px;
+}
+*/
 
 nav {
-	margin-top: 40px;
-	margin-bottom: 5px;
-	text-align:center;
-	color: black;
-	font-weight: bold;
+	text-align: center;
 }
 
-h1 {
-	text-align:center;
+header h1 {
+	text-align: center;
 }
 
-aside {
-	display:inline-block;
-}
-
-section {
-	display:block;
-	
-}
-
-aside {
+main {
+	border-top: 1px black solid;
+	border-bottom: 1px black solid;
+	width: 80%;
 	margin: auto;
+}
+
+main .left-col {
+	display: inline-block;
+	width: 60%;
+	float: left;
+	padding: 10%;
+}
+
+main .right-col {
+	display: inline-block;
+	width: 40%;
+	float: right;
+	vertical-align: top;
+}
+
+footer {
+	clear: both;
+	text-align: center;
+}
+
+footer ul li {
+	display: inline;
+	text-align: center;
+}
+
+.clearfix {
+	clear: both;
 }
 
 img {
-	height: 200px;
-	width: 200px;
-	margin-left: auto;
-	margin-right: auto;
-	display: block;
-	border-style: solid;
-	border-width: 1px;
-	padding: 2px;
-	margin: 0 auto;
-	position: relative;
-	width: 50%;
-}
-
-h3 {
-	width: 300px;
-}
-
-h4 {
-	width: 440px;
-}
-
-.bottombar {
-	margin-top: 20px;
-	margin-bottom: 30px;
-	text-align:center;
-}
-
-.floating-box {
-	vertical-align: top;
-	display: inline-block;
-    width: 450px;
-    height: 300px;
-    margin: 10px; 
-}
-
-.heading {
-	font-size: 40px;
-	text-align: center;
-	font-weight: bold;
-	margin-bottom: 20px;
-}
-
-a {
-	color: black;
-	font-weight: bold;
-}
-
-#innerleft {
-	display: inline-block;
-}
-
-#innerright {
-	position: relative;
-	margin: auto;
-	display: inline-block;
-}
-
-hr {
-	width: 50%;
-}
-
-span {
-	font-style: italic;
-}
-
-#expblurb {
-	text-align: center;
-}
-
-li {
-	margin: auto;
+	height: 70%;
+	width: 70%;
+	padding: 1px;
+	border: 1px black solid;
+	margin: 10%;
 }
